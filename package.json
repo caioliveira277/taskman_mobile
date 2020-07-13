@@ -7,17 +7,29 @@
     "web": "expo start --web",
     "eject": "expo eject"
   },
+  "rnpm": {
+    "assets": [
+      "./assets/fonts/"
+    ]
+  },
   "dependencies": {
     "expo": "~38.0.8",
     "expo-status-bar": "^1.0.2",
     "react": "~16.11.0",
     "react-dom": "~16.11.0",
     "react-native": "https://github.com/expo/react-native/archive/sdk-38.0.2.tar.gz",
-    "react-native-web": "~0.11.7"
+    "react-native-svg": "12.1.0",
+    "react-native-web": "~0.11.7",
+    "styled-components": "^5.1.1"
   },
   "devDependencies": {
     "@babel/core": "^7.8.6",
-    "babel-preset-expo": "~8.1.0"
+    "@expo/webpack-config": "^0.12.19",
+    "@hitbit/expo-svg-transformer": "^0.0.7",
+    "babel-preset-expo": "~8.1.0",
+    "eslint": "^7.4.0",
+    "eslint-plugin-react": "^7.20.3",
+    "react-native-svg-transformer": "^0.14.3"
   },
   "private": true
 }
